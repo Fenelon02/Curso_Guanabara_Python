@@ -1,0 +1,5 @@
+x=float(input())
+y=float(input())
+z=float(input())
+print(f'{x}{y}{z}')
+print(f'{z}{y}{x}')

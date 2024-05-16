@@ -1,0 +1,5 @@
+x=int(input('escreva algo '))
+y=int(input('escreva algo '))
+z=int(input('escreva algo '))
+a= x+(y*z)
+print('o resultado da soma de {}, com a multiplicação de {} e {} vale {}'.format(x,y,z,a))

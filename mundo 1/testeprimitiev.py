@@ -1,0 +1,6 @@
+n1=str(input('digite alguma coisa '))
+print(type(n1))
+print('é um número? ', n1.isnumeric())
+print('é uma letra? ',n1.isalpha())
+print('está escrito minúsculo? ',n1.islower())
+print('é um digito? ', n1.isdigit())
