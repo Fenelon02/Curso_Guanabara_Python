@@ -119,7 +119,7 @@ brasil.append(estado_2)
 print(brasil[0]['uf'])
 
 #vai printar o dicionário ['uf'] que está na posição [0] da lista.
-'''
+
 
 
 
@@ -135,9 +135,22 @@ for state in brasil:
     for key,value in state.items():
         print(f'O campo {key} tem valor {value}.')
 
+'''
 
+estado=dict()
+brasil=list()
 
+for contador in range(0,3):
+    estado['Unidade federativa']=str(input('Digite a unidade federativa: '))
+    estado['sigla']=str(input('Digite a sigla da UF: '))
+    brasil.append(estado.copy())
 
+for key in brasil:
+    for value in key.values():
+        print(f'{value}',end=' ')
+        #printa apenas o conteúdo, o valor: 'value', ou seja, printa o valor de Unidade federativa e o valor de 'sigla'
+    print()
+        #print apenas para pular linha
 
 
 
