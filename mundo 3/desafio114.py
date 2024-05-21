@@ -1,11 +1,11 @@
 '''Crie um código em Python que teste se o site pudim está acessível pelo computador usado.'''
-import urllib
-import urllib.request
+# código feito por @Lucas-BRT
+import subprocess
+import os
 
 try:
-    site=urllib.request.urlopen('https://www.pudim.com.br/')
+    import subprocess; subprocess.run(["ping", "-c", "4", "pudim.com.br"] if subprocess.os.name != "nt" else ["ping", "-n", "4", "pudim.com.br"])
 except:
-    print('Deu erro')
-
+    print(Exception)
 else:
     print('Tudo ok')

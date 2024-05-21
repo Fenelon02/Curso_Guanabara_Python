@@ -5,7 +5,7 @@ Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
 
 # MEU CÓDIGO
 '''ESQUECI DE POR O KeyboardInterrupt''' 
-
+'''
 def leitor_de_numeros_inteiros(elemento=''):
 
     elemento=input('Digite um número inteiro: ').strip()
@@ -57,9 +57,9 @@ inteiro=(leitor_de_numeros_inteiros())
 real=(leitor_de_numeros_reais())
 
 print(f'O valor inteiro digitado foi {inteiro} e o valor real digitado foi {real}')
-
-#CÓDIGO GUANABARA
 '''
+#CÓDIGO GUANABARA
+
 def leitor_de_numeros_inteiros(elemento=''):
     while True:
 
@@ -93,8 +93,7 @@ def leitor_de_numeros_reais(elemento=''):
             continue
 
 
-inteiro=leitor_de_numeros_inteiros('Digite um número inteiro: ')
-real=leitor_de_numeros_reais('Digite um número real: ')
+# inteiro=leitor_de_numeros_inteiros('Digite um número inteiro: ')
+# real=leitor_de_numeros_reais('Digite um número real: ')
 
-print(f'O valor inteiro digitado foi {inteiro} e o valor real digitado foi {real}')
-'''
+# print(f'O valor inteiro digitado foi {inteiro} e o valor real digitado foi {real}')
